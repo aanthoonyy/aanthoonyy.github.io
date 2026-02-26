@@ -38,7 +38,7 @@ const socialLinks = [
   },
   {
     name: "Website",
-    url: "https://anthonydevito.dev",
+    url: "https://anthonyDevito.dev",
     icon: (
       <svg
         className="w-6 h-6"
@@ -109,7 +109,7 @@ export default function Contact() {
           </div>
           <div className="pt-8 text-left text-secondary-700 text-sm">
             <div>
-              <strong>Email:</strong> anthony.devito@wsu.edu
+              <strong>Email:</strong> anthony.Devito@wsu.edu
             </div>
           </div>
         </div>
