@@ -67,7 +67,8 @@ a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  max-width: 680px;
+  width: fit-content;
+  max-width: 100%;
   margin: 0 auto;
   padding: 2rem 1.5rem;
 }
@@ -328,6 +329,29 @@ a.row:hover .row-name::after {
 .article-header a:not(.back-link) {
   font-size: 0.88rem;
   color: var(--accent);
+}
+
+/* ascii link box on project pages */
+.linkbox {
+  font-family: var(--mono);
+  font-size: clamp(0.5rem, 2.1vw, 0.88rem);
+  line-height: 1.4;
+  color: var(--faint);
+  white-space: pre;
+  overflow-x: auto;
+  max-width: 680px;
+  margin: 2rem auto 0;
+  padding: 0 1.5rem;
+}
+
+.linkbox a {
+  font-size: inherit;
+  color: var(--accent);
+}
+
+.linkbox a:hover {
+  color: var(--orange);
+  text-decoration: none;
 }
 
 .article-body {
